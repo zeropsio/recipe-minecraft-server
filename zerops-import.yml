@@ -1,3 +1,9 @@
+project:
+  name: minecraft-server
+  description: Java Edition Minecraft server hosted on zerops.io.
+  tags:
+    - minecraft
+    - fun
 services:
   - hostname: server
     type: java@21
