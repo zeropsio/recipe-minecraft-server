@@ -1,13 +1,13 @@
 # Zerops x Minecraft
 
-Everyone knows Minecraft. Here is few-click deployment to zerops.io, so you can play with your friends and have FUN.
+Everyone knows Minecraft. Here is few-click deployment to zerops.io, so you can play with your friends and have **FUN**.
 
 
 ![minecraft](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/png/cover-minecraft.png)
 
 <br/>
 
-<br/>
+## Deploy on Zerops
 
 [![Deploy on Zerops](https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/green/deploy-button.svg)](https://app.zerops.io/recipe/react-nodejs)
 
@@ -37,6 +37,9 @@ GUI after deployment.
 
 The world storage is persistent and located in `/mnt/disk`. Feel free to take backups or otherwise manipulate the mounted worlds directory by ssh-ing to the `server` (see [docs.zerops.io](https://docs.zerops.io) for more information about project VPN and SSH access).
 
-Feel free to fork this repository and manipulate `server.properties` as you wish. Only important property for this recipe to work is `server-ip=0.0.0.0`. 
+Feel free to fork this repository and manipulate `server.properties` as you wish. Only important property for this recipe to work is `server-ip=0.0.0.0`.
+
+<br/>
+<br/>
 
 If you have any troubles running the server or whatever, join our [Discord server](https://discord.gg/WDvCZ54) and ask there :) **Enjoy!**
