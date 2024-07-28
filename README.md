@@ -2,7 +2,7 @@
 
 Everyone knows Minecraft. Here is few-click deployment to zerops.io, so you can play with your friends and have FUN.
 
-If you and your friends don't have IPv6 connectivity (as you probably won't have), follow these extra steps to enable
+If you and your friends don't have IPv6 connectivity (as you probably won't have), follow these extra steps in GUI to enable
 IPv4 connectivity:
 
 - Projects > `minecraft-server`
@@ -10,7 +10,7 @@ IPv4 connectivity:
     - Services > `server` > Public access & internal ports > Public Access through IP Addresses > Setup up the first
       access through IPv4
 
-Otherwise, you'll need to only activate public connectivity to Minecraft server port:
+Otherwise, you'll need to only activate public connectivity to Minecraft server port (GUI):
 
 - Projects > `minecraft-server`
   - Services > `server` > Public access & internal ports > Public Access through IP Addresses > Setup up the first
