@@ -2,6 +2,10 @@
 
 Everyone knows Minecraft. Here is few-click deployment to zerops.io, so you can play with your friends and have FUN.
 
+
+![minecraft](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/svg/cover-minecraft.png)
+
+
 If you and your friends don't have IPv6 connectivity (as you probably won't have), follow these extra steps in GUI to enable
 IPv4 connectivity:
 
