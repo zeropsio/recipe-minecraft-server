@@ -1,0 +1,17 @@
+services:
+  - hostname: server
+    type: java@21
+    priority: 5
+    maxContainers: 1
+    verticalAutoscaling:
+      minRam: 2
+    buildFromGit: https://github.com/zeropsio/recipe-minecraft-server
+    mount:
+      - disk
+    envSecrets:
+      MC_WORLD_NAME: world
+      MC_SEED: zerops_rules
+  - hostname: disk
+    type: shared-storage
+    priority: 10
+    mode: HA

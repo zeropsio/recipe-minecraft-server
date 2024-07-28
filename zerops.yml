@@ -1,0 +1,19 @@
+zerops:
+  - setup: server
+    build:
+      buildCommands:
+        - wget https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar
+      deployFiles:
+        - server.jar
+        - server.properties
+        - eula.txt
+    run:
+      envReplace:
+        delimiter: $$
+        target:
+          - server.properties
+      ports:
+        - port: 25565
+          protocol: tcp
+          httpSupport: false
+      start: sudo java -Xms1G -Xmx8G -jar server.jar --nogui
