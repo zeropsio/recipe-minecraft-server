@@ -9,7 +9,7 @@ Everyone knows Minecraft. Here is few-click deployment to zerops.io, so you can 
 
 ## Deploy on Zerops
 
-[![Deploy on Zerops](https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/green/deploy-button.svg)](https://app.zerops.io/recipe/react-nodejs)
+[![Deploy on Zerops](https://github.com/zeropsio/recipe-shared-assets/blob/main/deploy-button/green/deploy-button.svg)](https://app.zerops.io/recipe/minecraft-server)
 
 <br/>
 
