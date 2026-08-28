@@ -12,12 +12,9 @@ services:
     verticalAutoscaling:
       minRam: 2
     buildFromGit: https://github.com/zeropsio/recipe-minecraft-server
-    mount:
-      - disk
     envSecrets:
       MC_WORLD_NAME: world
       MC_SEED: zerops_rules
   - hostname: disk
-    type: shared-storage
+    type: local-storage:single@1
     priority: 10
-    mode: HA
