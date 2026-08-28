@@ -35,7 +35,7 @@ GUI after deployment.
 | `MC_WORLD_NAME` | world        | Name of your Minecraft world. Located in `/mnt/disk/$MC_WORLD_NAME`.                                                                  |
 | `MC_SEED`       | zerops_rules | Your Minecraft world seed. If you change only seed you may have to delete the current world directory or changing the world name too. |
 
-The world storage is persistent and located in `/mnt/disk`. Feel free to take backups or otherwise manipulate the mounted worlds directory by ssh-ing to the `server` (see [docs.zerops.io](https://docs.zerops.io) for more information about project VPN and SSH access).
+The worlds live on the `disk` [Local Storage](https://docs.zerops.io/local-storage/overview) service, mounted to the `server` at `/mnt/disk`, so they survive restarts and redeploys. Feel free to take backups or otherwise manipulate the mounted worlds directory by ssh-ing to the `server` (see [docs.zerops.io](https://docs.zerops.io) for more information about project VPN and SSH access).
 
 Feel free to fork this repository and manipulate `server.properties` as you wish. Only important property for this recipe to work is `server-ip=0.0.0.0`.
 

@@ -16,4 +16,6 @@ zerops:
         - port: 25565
           protocol: tcp
           httpSupport: false
+      volume:
+        hostname: disk
       start: sudo java -Xms1G -Xmx8G -jar server.jar --nogui
